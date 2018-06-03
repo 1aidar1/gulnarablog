@@ -24,6 +24,8 @@ define('DB_NAME', 'myfirstbase');
 
 /** Имя пользователя MySQL */
 define('DB_USER', 'root');
+//какаято штука против ошибки с базой
+define ('WP_ALLOW_REPAIR', true);
 
 /** Пароль к базе данных MySQL */
 define('DB_PASSWORD', '');
