@@ -18,17 +18,20 @@
  * @package WordPress
  */
 
+//какаято штука против ошибки с базой
+//define ('WP_ALLOW_REPAIR', true);
+
+
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
 define('DB_NAME', 'myfirstbase');
 
 /** Имя пользователя MySQL */
 define('DB_USER', 'root');
-//какаято штука против ошибки с базой
-define ('WP_ALLOW_REPAIR', true);
+
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'aezakmi0101');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
